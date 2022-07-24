@@ -1,4 +1,4 @@
-import  persona from "./eje01";
+import  persona from './persona'
 import './App.css';
 
 function App() {
@@ -6,12 +6,12 @@ function App() {
     <>
     <h1>{persona.nombre}</h1>
     <div>
-      <p>Edad:{persona.edad}</p>
-      <p>Nacimiento:{persona.nacimiento} </p>
+      <p>Edad: {persona.edad}</p>
+      <p>Nacimiento: {persona.nacimiento}</p>
       <div>
-        Dirección:
-        <p>Calle:{persona.direccion.calle}</p>
-        <p>Numero y piso:{persona.direccion.numero}, {persona.direccion.piso} </p>
+        dirección
+        <p>Calle: {persona.direccion.calle}, {persona.direccion.numero}</p>
+        <p>{persona.direccion.piso} {persona.direccion.cd}{persona.direccion.ciudad}</p>
       </div>
     </div>
     </>

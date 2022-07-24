@@ -1,4 +1,4 @@
-persona={
+let persona={
     
     nombre:"Paco",
     edad:36,
@@ -6,8 +6,8 @@ persona={
     direccion: {
         calle:"Sésamo",
         numero: 14,
-        piso: "3-D"
-        cp: 34532,
+        piso: "3-D",
+        cp:34532,
         ciudad: "Gotham"
 
     },
@@ -16,3 +16,4 @@ persona={
         rh:"+"
     }
 }
+export default persona; 
